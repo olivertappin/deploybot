@@ -1,7 +1,7 @@
 #!/bin/sh
 rollback=%ROLLBACK?%
 if [ 1 -eq "$rollback" ]; then
-    base="/home/warrprod"
+    base="/home/user"
     releases="$base/releases"
     commit="%COMMIT%"
     for release in $releases/*; do
